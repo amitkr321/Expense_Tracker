@@ -70,6 +70,25 @@ button:hover{
     text-align: center;
     font-size: 20px;
 }
+
+.container {
+    width: 90%; /* instead of 40% */
+    max-width: 600px; /* for larger screens */
+}
+input, button {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    input, button {
+        font-size: 16px;
+    }
+}
+
+
+
 /* .hidden{
     display: none;
 } */
